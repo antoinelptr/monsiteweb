@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+	margin-top: 0px;
+	text-align: center;
+	background-image: url("../images/R.jfif");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	background-attachment: fixed;
+	padding-top: 0px;
+
+}
+
+header{
+
+background-color: #5B686D  ;
+	height: 150px;
+	border: 3px black solid;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 75px;
+	left: 0px;
+	border-radius: 100px;
+	box-shadow: 10px 10px 20px floralwhite;
+}
+
+
+
+nav {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	font-size: 20pt;
+	align-items: center;
+
+}
+
+
+nav a {
+color: white;
+
+
+}
+
+#accueil{
+	
+	text-align: center;
+	color: white;
+	background-color: #5B686D;
+  margin: auto;
+  margin-bottom: 85px;
+  margin-top: 150px;
+  height: 100%;
+  width: 40%;
+  border-radius: 50px;
+ box-shadow: 15px 15px 20px lightgoldenrodyellow;
+ border: 4px black solid;
+
+}
+
+
+
+#apropos{
+	
+	text-align: center;
+	color: white;
+	background-color: #5B686D;
+  margin: auto;
+  margin-bottom: 85px;
+  margin-top: 150px;
+  height: 100%;
+  width: 40%;
+  border-radius: 50px;
+ box-shadow: 15px 15px 20px lightgoldenrodyellow;
+ border: 4px black solid;
+
+
+
+}
+
+#competences{
+	
+	text-align: center;
+	color: white;
+	background-color: #5B686D;
+	margin: auto;
+  margin-top: 90px;
+  margin-bottom: 85px;
+  height: 1600px;
+  width: 40%;
+  border-radius: 50px;
+  box-shadow: 15px 15px 20px lightgoldenrodyellow;
+  border: 4px black solid;
+
+
+
+}
+
+
+#experiences{
+	text-align: center;
+	color: white;
+	 background-color: #5B686D;
+	 margin: auto;
+  margin-top: 50px;
+  margin-bottom: 85px;
+  height: 100vh;
+  width: 70%;
+  border-radius: 50px;
+  box-shadow: 15px 15px 20px lightgoldenrodyellow;
+  border: 4px black solid;
+
+
+}
+
+#formations{
+text-align: center;
+color: white;
+background-color: #5B686D;
+margin: auto;
+margin-top: 70px;
+margin-bottom: 100px;
+height: 50%;
+width: 30%;
+border-radius: 50px;
+box-shadow: 15px 15px 20px lightgoldenrodyellow;
+border: 4px black solid;
+
+
+
+}
+
+#contact{
+		text-align: center;
+	color: white;
+ background-color: #5B686D;
+ margin: auto;
+  margin-top: 70px;
+  margin-bottom: 85px;
+  height: 50%;
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 15px 15px 20px lightgoldenrodyellow;
+  border: 4px black solid;
+
+
+}
+
+
+
+#ano {
+position: relative;
+bottom: 950px;
+left: 1100px;
+
+
+}
+
+
+	
+ #corps {
+	text-align: left;
+	position: relative;
+	top: 1px;
+}
+
+
+
+
+ #test {
+ 	text-align: left;
+
+
+ }
+
+
+
+
+ #soustitre{
+ 	font-size: 30pt;
+ 	text-decoration: underline;
+ 	color: red;
+
+ }
+
+#taille{
+	font-size: 200%;
+
+
+}
+
+section{
+	display: none;
+
+
+}
+section:target{
+	display: block;
+}
+form{
+	margin: auto;
+	text-align: left;
+	width: 50%;
+	height: auto;
+
+}
+
+input{
+	text-align: left;
+	width: 100%;
+
+
+
+
+}
+#mess{
+	margin: 0px;
+
+
+}

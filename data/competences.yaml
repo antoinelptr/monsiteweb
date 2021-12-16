@@ -1,0 +1,18 @@
+domaine: Domaines en dev
+item: Connaissance en html, php, yaml et sql
+explitem: 
+niveauhtml: Niveau html ★★★★✩ 
+niveaucss: Niveau css ★★★★✩ 
+niveauphp: Niveau php ★★✩✩✩ 
+niveauyaml: Niveau yaml ★★★✩✩
+niveausql: Niveau sql★✩✩✩✩
+niveaumoyen: Niveau moyen ★★★✩✩
+scorecertif: Certif :Inconnu
+domaines: Domaines en réseau
+items: Connaissance en cisco, machines virtuelles, service DHCP et DNS
+niveaucisco: Niveau Cisco ★★★★✩
+niveaudeb: Niveau Debian ★★★✩✩
+niveaudhcp: Niveau DHCP ★★★★✩
+niveaudns: Niveau DNS ★★★✩✩
+niveaumoy: Niveau moyen ★★★★✩
+

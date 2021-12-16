@@ -1,0 +1,36 @@
+<h1 id="soustitre">Coordonnées:</h1>
+<div id="conctacf">
+
+<?php
+
+$data=yaml_parse_file("data/contact.yaml"); 
+
+echo '<h1>'.$data["tel"].'</h1>';
+echo '<h1>'.$data["email"].'</h1>';
+?>
+</div>
+<br>
+<h1> OU </h1>
+<form action="action.php" method="post">
+ <p>Votre Nom :<br> <input type="text" name="nom" /></p>
+ <p>Votre Nom de famille : <br> <input type="text" name="nomfamille" /></p>
+  <p>Objet : <br> <input type="object" name="objet" /></p>
+  <p id="mess"> Message : <br>  <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"> </textarea> </p>
+ <p>Votre âge : <br> <input type="text" name="age" /></p>
+ <p>Votre Email : <br> <input type="email" name="mail" /></p>
+ <p>Votre Telephone : <br> <input type="phone" name="tel" /></p>
+ <div class="g-recaptcha" data-sitekey="6Ld706QdAAAAAIFwlaxzCOfKuSPBepv8U97VpfRt"></div>
+ <p><input type="submit" value="OK"></p>
+</form>
+
+<?php
+ if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
+  if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
+  {
+        $secret = '6Ld706QdAAAAAFLLLY7xCM6l5YH1PeYQ-Pcg0O3n';
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+        if($responseData->success){} 
+    }
+}
+?>
