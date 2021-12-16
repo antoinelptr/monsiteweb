@@ -19,7 +19,7 @@ echo '<h1>'.$data["email"].'</h1>';
  <p>Votre âge : <br> <input type="text" name="age" /></p>
  <p>Votre Email : <br> <input type="email" name="mail" /></p>
  <p>Votre Telephone : <br> <input type="phone" name="tel" /></p>
- <div class="g-recaptcha" data-sitekey="6Ld706QdAAAAAIFwlaxzCOfKuSPBepv8U97VpfRt"></div>
+ <div class="g-recaptcha" data-sitekey="6LeSXKgdAAAAAJqtz6KwIECdixJ82cf8HXTrJ2GB"></div>
  <p><input type="submit" value="OK"></p>
 </form>
 
@@ -27,7 +27,7 @@ echo '<h1>'.$data["email"].'</h1>';
  if(isset($_POST['submit']) && $_POST['submit'] == 'SUBMIT'){
   if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
   {
-        $secret = '6Ld706QdAAAAAFLLLY7xCM6l5YH1PeYQ-Pcg0O3n';
+        $secret = '6LeSXKgdAAAAAIMc4bN7QK5t1yM3dsmhzuU5BJzu';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
         $responseData = json_decode($verifyResponse);
         if($responseData->success){} 
