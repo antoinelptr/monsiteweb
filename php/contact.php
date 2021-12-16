@@ -20,7 +20,7 @@ echo '<h1>'.$data["email"].'</h1>';
  <p>Votre Email : <br> <input type="email" name="mail" /></p>
  <p>Votre Telephone : <br> <input type="phone" name="tel" /></p>
  <div class="g-recaptcha" data-sitekey="6LeSXKgdAAAAAJqtz6KwIECdixJ82cf8HXTrJ2GB"></div>
- <p><input type="submit" value="OK"></p>
+ <p id="bouton"><input type="submit" id="envoyer" value="OK"></p>
 </form>
 
 <?php
