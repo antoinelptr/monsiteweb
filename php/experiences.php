@@ -1,4 +1,3 @@
-<hr>
 <h1 id="soustitre" >Mes experiences professionnelles: </h1>
 <div id="taille">
 <?php
@@ -10,4 +9,3 @@ echo '<p>'.$data["mini"].'</p>';
 echo '<p>'.$data["ordi"].'</p>';
 ?>
 </div>
-<hr>

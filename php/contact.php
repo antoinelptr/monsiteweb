@@ -5,8 +5,8 @@
 
 $data=yaml_parse_file("data/contact.yaml"); 
 
-echo '<h1>'.$data["tel"].'</h1>';
-echo '<h1>'.$data["email"].'</h1>';
+echo '<p id="taille">'.$data["tel"].'</p>';
+echo '<p id="taille">'.$data["email"].'</p>';
 ?>
 </div>
 <br>

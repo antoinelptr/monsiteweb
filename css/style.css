@@ -7,13 +7,11 @@
 
 
 body{
-	margin-top: 0px;
 	text-align: center;
 	background-image: url("../images/R.jfif");
 	background-repeat: repeat;
 	background-size: 100% ;
 	background-attachment: fixed;
-	padding-top: 0px;
 
 }
 
@@ -50,109 +48,6 @@ color: white;
 
 }
 
-#accueil{
-	
-	text-align: center;
-	color: white;
-	background-color: #5B686D;
-  margin: auto;
-  margin-bottom: 85px;
-  margin-top: 150px;
-  height: 100%;
-  width: 40%;
-  border-radius: 50px;
- box-shadow: 15px 15px 20px lightgoldenrodyellow;
- border: 4px black solid;
-
-}
-
-
-
-#apropos{
-	
-	text-align: center;
-	color: white;
-	background-color: #5B686D;
-  margin: auto;
-  margin-bottom: 85px;
-  margin-top: 150px;
-  height: 100%;
-  width: 40%;
-  border-radius: 50px;
- box-shadow: 15px 15px 20px lightgoldenrodyellow;
- border: 4px black solid;
-
-
-
-}
-
-#competences{
-	
-	text-align: center;
-	color: white;
-	background-color: #5B686D;
-	margin: auto;
-  margin-top: 90px;
-  margin-bottom: 85px;
-  height: 1600px;
-  width: 40%;
-  border-radius: 50px;
-  box-shadow: 15px 15px 20px lightgoldenrodyellow;
-  border: 4px black solid;
-
-
-
-}
-
-
-#experiences{
-	text-align: center;
-	color: white;
-	 background-color: #5B686D;
-	 margin: auto;
-  margin-top: 50px;
-  margin-bottom: 85px;
-  height: 100vh;
-  width: 70%;
-  border-radius: 50px;
-  box-shadow: 15px 15px 20px lightgoldenrodyellow;
-  border: 4px black solid;
-
-
-}
-
-#formations{
-text-align: center;
-color: white;
-background-color: #5B686D;
-margin: auto;
-margin-top: 70px;
-margin-bottom: 100px;
-height: 50%;
-width: 30%;
-border-radius: 50px;
-box-shadow: 15px 15px 20px lightgoldenrodyellow;
-border: 4px black solid;
-
-
-
-}
-
-#contact{
-		text-align: center;
-	color: white;
- background-color: #5B686D;
- margin: auto;
-  margin-top: 70px;
-  margin-bottom: 85px;
-  height: 50%;
-  width: 50%;
-  border-radius: 50px;
-  box-shadow: 15px 15px 20px lightgoldenrodyellow;
-  border: 4px black solid;
-
-
-}
 
 
 
@@ -198,13 +93,21 @@ left: 1100px;
 }
 
 section{
+	padding-top: 7%;
 	margin-top: 200px!important;
 	display: none;
+
+ margin: auto;
+   
+ ;
+ 
+   width: 50%;
 
 
 }
 section:target{
 	display: block;
+
 }
 form{
 	margin: auto;
@@ -224,25 +127,24 @@ input{
 }
 #mess{
 	margin: 0px;
-
-
 }
+
+
+
 
 #moi{
 	height: 30%;
 	width: 30%;
-
-
-
 }
-#serveur{
 
+
+
+#serveur{
 height: 50%;
 	width: 50%;
-
-
-
 }
+
+
 
 #envoyer{
 	text-align: center;
@@ -250,11 +152,29 @@ height: 50%;
 	height: auto;
 }
 
+
+
 textarea{
 	width: 100%;
 	height: 150px;
 }
 
+
+
+
 #bouton{
 	margin-left: 40%;
+}
+
+
+
+
+
+.cartouche{
+	text-align: center;
+	color: white;
+ background-color: #5B686D;
+border-radius: 50px;
+box-shadow: 15px 15px 20px lightgoldenrodyellow;
+border: 4px black solid;
 }
