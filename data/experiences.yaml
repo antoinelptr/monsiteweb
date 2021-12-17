@@ -1,4 +1,10 @@
-forma: -- Actuellement en BTS SIO à sainte ursule
-stage3eme: -- Stage de 3ème avec un huissier de justice.
-mini: -- Participation à une mini-entreprise lors de ma 3ème qui consistait à fabriquer des portes-clefs.
-ordi: -- Quelques stages d'une semaine dans une entreprise d'informatique à cherbourg (LCI Informatique)j'ai pu préparer des ordinateurs à la vente ainsi que supprimer des virus.
+forma: "- Actuellement en BTS SIO à sainte ursule"
+forma2: (2021-2022)
+stage3eme: "- Stage de 3ème avec un huissier de justice."
+stage3eme2: (2017-2018)
+stage3eme3: bla
+mini: "- Participation à une mini-entreprise lors de ma 3ème qui consistait à fabriquer des portes-clefs."
+mini2: (2017-2018) 
+ordi: "- Quelques stages d'une semaine dans une entreprise d'informatique à cherbourg"
+ordi2: (LCI Informatique)
+ordi3: J'ai pu préparer des ordinateurs à la vente ainsi que supprimer des virus.
