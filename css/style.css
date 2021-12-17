@@ -10,7 +10,7 @@ body{
 	margin-top: 0px;
 	text-align: center;
 	background-image: url("../images/R.jfif");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: 100% ;
 	background-attachment: fixed;
 	padding-top: 0px;
