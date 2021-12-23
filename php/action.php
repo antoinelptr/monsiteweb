@@ -50,7 +50,7 @@ if($responseKeys["success"]) {
         $CONFIG= include 'infomail.php';
         $mail = new PHPMailer(true);  // Crée un nouvel objet PHPMailer
         $mail->IsSMTP(); // active SMTP
-        $mail->SMTPDebug = 0;  // debogage: 1 = Erreurs et messages, 2 = messages seulement
+        $mail->SMTPDebug = 1;  // debogage: 1 = Erreurs et messages, 2 = messages seulement
         $mail->SMTPSecure = 'ssl'; //or ssl
         $mail->Host = 'ssl://smtp.gmail.com';
         $mail->Port = 465;
