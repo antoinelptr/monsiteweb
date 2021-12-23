@@ -10,6 +10,12 @@ echo '<p id="taille">'.$data["bac"].'</p>';
 echo '<p id="taille">'.$data["date2"].'</p>';
 echo '<p id="taillemini">'.$data["bac2"].'</p> <br><hr>';
 ?>
+
+<?php
+echo "<h3><a id='CV' href='cv/CV.pdf'>Mon CV </a></h3>";
+?>
+
+
 </div>
 </div>
 <br><br><br>
