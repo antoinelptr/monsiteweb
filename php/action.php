@@ -51,9 +51,9 @@ if($responseKeys["success"]) {
         $mail = new PHPMailer(true);  // Crée un nouvel objet PHPMailer
         $mail->IsSMTP(); // active SMTP
         $mail->SMTPDebug = 1;  // debogage: 1 = Erreurs et messages, 2 = messages seulement
-        $mail->SMTPSecure = 'ssl'; //or ssl
-        $mail->Host = 'ssl://smtp.gmail.com';
-        $mail->Port = 465;
+        $mail->SMTPSecure = 'tls'; //or ssl
+        $mail->Host = 'smtp.gmail.com';
+        $mail->Port = 587;
        
         //Pour autoriser un envoi depuis 127.0.0.1
         $mail->SMTPOptions = [
